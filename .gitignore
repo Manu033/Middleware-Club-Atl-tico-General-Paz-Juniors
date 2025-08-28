@@ -16,26 +16,21 @@ x86/
 *.sln.docstates
 *.rsuser
 
-## Archivos de VS Code
+## Archivos de VS Code / JetBrains
 .vscode/
-
-## Archivos de configuración de Rider/JetBrains
 .idea/
 
 ## Archivos de paquetes y dependencias
+packages/
 *.nupkg
 *.snupkg
 *.nuspec
-*.psess
-*.vsp
-*.vspscc
-*.pdb
 project.lock.json
 project.fragment.lock.json
 artifacts/
 
 ## Configuración temporal de Visual Studio
-*.vs/
+.vs/
 
 ## Publicaciones
 *.Publish.xml
@@ -43,7 +38,6 @@ artifacts/
 *.publishproj
 
 ## Configuración de IIS Express
-.vs/
 applicationhost.config
 
 ## Archivos generados por pruebas
@@ -70,15 +64,13 @@ TestResult*/
 *.tlh
 *.tmp
 *.tmp_proj
-*.log
 *.vsmdi
 *.cachefile
 *.dbmdl
 
-## Configuración local
+## Configuración local / secreta
 *.local.json
-appsettings.Development.json
-appsettings.Local.json
+appsettings.*.json
 secrets.json
 
 ## Otros
