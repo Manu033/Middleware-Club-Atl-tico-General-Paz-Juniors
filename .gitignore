@@ -1,0 +1,88 @@
+## Archivos binarios y compilados
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+
+## Archivos de usuario de Visual Studio
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.rsuser
+
+## Archivos de VS Code
+.vscode/
+
+## Archivos de configuración de Rider/JetBrains
+.idea/
+
+## Archivos de paquetes y dependencias
+*.nupkg
+*.snupkg
+*.nuspec
+*.psess
+*.vsp
+*.vspscc
+*.pdb
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+## Configuración temporal de Visual Studio
+*.vs/
+
+## Publicaciones
+*.Publish.xml
+*.pubxml
+*.publishproj
+
+## Configuración de IIS Express
+.vs/
+applicationhost.config
+
+## Archivos generados por pruebas
+TestResult*/
+[Tt]est[Rr]esult*
+*.coverage
+*.coveragexml
+
+## Archivos de compilación de estilo antiguo
+*_i.c
+*_p.c
+*_h.h
+*.ilk
+*.meta
+*.obj
+*.pch
+*.pdb
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.tmp_proj
+*.log
+*.vsmdi
+*.cachefile
+*.dbmdl
+
+## Configuración local
+*.local.json
+appsettings.Development.json
+appsettings.Local.json
+secrets.json
+
+## Otros
+*.swp
+*.bak
+*.orig
+*.tmp
